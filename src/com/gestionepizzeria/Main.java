@@ -27,7 +27,7 @@ public class Main {
 			System.out.println("Che pizza vuoi?");
 			String nomePizza = in.nextLine();
 
-			/* Prevedere Eccezione se nome non corrisponde */
+			
 			switch (nomePizza) {
 			case "margherita":
 				pizza = new Margherita();
@@ -45,8 +45,7 @@ public class Main {
 				System.out.println("Pizza non trovata");
 				break;
 
-			// default: --> Implementare come esercizio
-			// throw Exception()
+			
 
 			}
 
